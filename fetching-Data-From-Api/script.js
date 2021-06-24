@@ -7,7 +7,15 @@ let config = { headers: { Accept: 'application/json' } }
 const fetcher = async(query) => {
     let res = await axios.get(`http://api.tvmaze.com/search/shows?q=${query}`, config)
         .then((res) => {
-            console.log(res.data[1].show.name)
+            for (let movie of res.data) {
+                let formatedData = new Object({
+                    name: movie.show.name,
+                    url: movie.show.url,
+                    rating: movie.score * 10,
+                })
+                console.log(formatedData)
+            }
+            // console.log(res.data[1].show)
         })
         .catch(err => {
             console.log(err.details)
