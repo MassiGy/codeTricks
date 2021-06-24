@@ -1,0 +1,2 @@
+alert('Note: When you hover above the map icon, the reserved place for this map will be shown in a grey color (there you will remplace it with your map markup)');
+alert('Note: When you hover above the map icon, the search icon will go down, cuz my body styles makes it a flex layout and with a justify-content equals to space-between')
