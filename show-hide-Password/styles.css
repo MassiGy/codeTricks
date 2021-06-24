@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputBox {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    line-height: 22px;
+    border-right: none;
+}
+
+span {
+    line-height: 22px;
+}
