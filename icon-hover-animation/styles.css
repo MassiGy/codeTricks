@@ -1,0 +1,42 @@
+body {
+    margin-top: 300px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* SEARCH INPUT HOVER ANIMAITON */
+
+#searchedInput {
+    background: none;
+    border: none;
+    outline: none;
+    width: 0px;
+    float: left;
+    transition: 0.5s;
+}
+
+.search-section:hover>#searchedInput {
+    width: 240px;
+}
+
+
+/* MAPS HOVER ANIMAITON */
+
+#map {
+    width: 0px;
+    height: 0px;
+    border: none;
+    outline: 0;
+    float: left;
+    transition: 0.5s;
+    background-color: grey;
+}
+
+.map-box:hover>#map {
+    width: 240px;
+    height: 250px;
+}
