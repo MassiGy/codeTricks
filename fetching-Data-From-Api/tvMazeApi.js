@@ -15,7 +15,6 @@ const fetcher = async(query) => {
                 })
                 console.log(formatedData)
             }
-            // console.log(res.data[1].show)
         })
         .catch(err => {
             console.log(err.details)
