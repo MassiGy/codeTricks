@@ -1,0 +1,16 @@
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input:nth-child(1) {
+    margin-right: 30px;
+}
