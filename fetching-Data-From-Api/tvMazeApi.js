@@ -6,9 +6,9 @@ const exec = require('child_process').exec
 
 
 const fetcher = async(query) => {
-    let res = await axios.get(`http://api.tvmaze.com/search/shows?q=${query}`, config)
+    await axios.get(`http://api.tvmaze.com/search/shows?q=${query}`, config)
         .then((res) => {
-            res.data.length = 10;
+            res.data.length = 5;
             for (let movie of res.data) {
                 let formatedData = new Object({
                     name: movie.show.name,
