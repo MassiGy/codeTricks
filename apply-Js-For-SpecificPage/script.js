@@ -1,6 +1,6 @@
-if (window.location.href.includes('C:/')) {
+if (window.location.href.includes('login')) {
     // do what ever you want to this page
 
-    alert('your page is a file in your C drive!!!!!');
+    alert('this alert is just displayed on the login page ');
 
 }
