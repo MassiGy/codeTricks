@@ -10,7 +10,7 @@ body {
 
 /* SEARCH INPUT HOVER ANIMAITON */
 
-#searchedInput {
+#search-section__input {
     background: none;
     border: none;
     outline: none;
@@ -19,14 +19,14 @@ body {
     transition: 0.5s;
 }
 
-.search-section:hover>#searchedInput {
+.search-section:hover>#search-section__input {
     width: 240px;
 }
 
 
 /* MAPS HOVER ANIMAITON */
 
-#map {
+#map-box__map {
     width: 0px;
     height: 0px;
     border: none;
@@ -36,7 +36,7 @@ body {
     background-color: grey;
 }
 
-.map-box:hover>#map {
+.map-box:hover>#map-box__map {
     width: 240px;
     height: 250px;
 }
