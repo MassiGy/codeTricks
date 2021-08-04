@@ -1,0 +1,26 @@
+#jumbotron {
+    background-color:rgb(155, 155, 155);
+    color:black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#Engine{
+   text-align: center;
+}
+
+input{
+    width: 25em;
+    margin: 20px;
+}
+button{
+    width: 10em;
+
+}
+img{
+    margin : 10px
+}
+
+.grey{
+    background-color: rgba(153, 153, 153, 0.712);
+}
